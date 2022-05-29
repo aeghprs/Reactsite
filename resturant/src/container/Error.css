@@ -1,0 +1,10 @@
+
+.error .pic{
+    position: relative;
+    width: 100%;
+}
+.error .btn {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
