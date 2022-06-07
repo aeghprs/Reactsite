@@ -1,0 +1,114 @@
+.app__wrapper_img img{
+    
+    height: 70vh;
+    margin:0 50px;
+    margin-bottom: 20px;
+}
+.chef{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.app__chef-sign .name{
+    margin-top: 20px;
+    color: var(--color-golden);
+}
+
+.para_content{
+    margin-top: 20px; 
+    
+}
+.para_content .p__opensans{
+    letter-spacing: 0.04em;
+}
+.para_content img{
+    height: 20px;
+}
+@media screen and (min-width: 2000px) {
+    .app__chef-sign img {
+        width: 370px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .app__wrapper_img img {
+        width: 100%;
+    }
+   
+    .chef{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        flex-direction: column;
+        margin: 40px;
+        }
+        
+        .sub__heading .heading{
+            
+            margin-left: 20%;
+           
+        }
+        .sub__heading .para_content{
+            
+            margin-left: 15%;
+           
+        }
+        .sub__heading .app__chef-sign{
+            
+            margin-left: 15%;
+           
+        }
+        .app__chef-sign .name{
+            margin-top: 20px;
+            color: var(--color-golden);
+        }
+   
+}
+@media screen and (max-width: 750px) {
+    .app__wrapper_img img {
+        width: 100%;
+        margin: 0;
+    }
+    .app__chef-sign img {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .headtext__cormorant {
+        font-family: var(--font-base);
+        color: var(--color-golden);
+        /* font-size: 54px; */
+        text-transform: capitalize;
+    }
+    .chef{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        flex-direction: column;
+        margin: 40px;
+        }
+        .sub__heading .heading{
+            
+            margin-left: 50px;
+            
+           
+        }
+        .sub__heading .para_content{
+            
+            margin-left: 40px;
+           
+        }
+        .sub__heading .app__chef-sign{
+            
+            margin-left: 40px;
+           
+        }
+        .app__chef-sign .name{
+            margin-top: 20px;
+            color: var(--color-golden);
+        }
+    
+ 
+}
